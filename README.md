@@ -1,2 +1,2 @@
-# freeCodeCampSolutions
-Responsive WEB design project from freeCodeCamp.
+# Responsive WEB design course
+Responsive WEB design projects solutions from freeCodeCamp.
