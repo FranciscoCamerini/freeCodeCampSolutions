@@ -1,0 +1,118 @@
+<html>
+<head>
+  <title> Survey form</title>
+  </head>
+  <body>
+    <div id="caixa">
+    <header> <h1 id="title">Review feijoada Neri<h1> 
+      </header>
+      
+        
+          <div>
+            <p id="description"> Conte-nos o que achou da feijoada feita pela família Camerini no ultimo domingo. </p>
+      </div>
+              <div id="nameinput">
+              <form id="survey-form"> 
+                <div>
+                  <label id="name-label">Nome</label>
+                </div> 
+                <div>
+                  <input required id="name" type="text" name="name" placeholder="Insira nome"</input>
+                </div>
+      
+                
+                 
+           
+            
+               <div id="emailinput">
+                <div>
+                  <label id="email-label">Email</label>
+                </div> 
+                <div>
+                  <input required type="email" id="email" name="email" placeholder="Insira email"</input>
+                
+                </div>
+    
+      </div>
+            
+          
+              <div id="ageinput">
+                <div>
+                  <label id="number-label">Idade</label>
+                </div> 
+                <div>
+                  <input type="number" id="number" name="age" min="1" max="99" placeholder="Anos" required</input>
+                </div>
+                </div>
+      <div id="optionselect">
+        <div>
+          <label>Ultima vez que você havia comido uma feijoada</label>      
+        </div>
+        <div id="dropdown">
+          <select>
+            <option>Menos de uma semana atrás</option>
+            <option>Menos de um mês</option>
+            <option>Menos de 6 meses</option>
+            <option>Mais de 6 meses</option>
+          </select>
+        </div>
+        </div>
+      
+      <div id="reccomendinput">
+        <div>
+          <label>Você recomendaria a feijoada da Neri?</friend>
+        </div>
+        <div>
+          <input type="radio" name="suggest" value="Definetly"><label>Definitivamente</label>
+          <input type="radio" name="suggest" value="Maybe"><label>Talvez</label>       
+          <input type="radio" name="suggest" value="Not sure"><label>Não sei</label>
+        </div>
+    </div>
+    
+    <div id="mostselect">
+        <div>
+          <label>O que você mais gostou no evento?</label>
+        </div>
+        <div>
+          <select>
+            <option>Selecione</option>
+            <option>Carne do Cunha</option>
+            <option>Couve com bacon</option>
+            <option>Quibeb</option>
+            <option>Vinagrete</option>
+            <option>Farofa</option><option>Sabor do Caldo</option>
+            <option>DOM HAUS</option>
+            <option>Pudim</option>
+          </select>
+        </div>
+      </div>
+      
+      <div id="improvecheckbox">
+          <label>Coisa que poderiam ser melhoradas</label>
+          
+          <div>
+            <input type="checkbox" name="projects" value="Qualidade"> <label> Qualidade dos ingredientes</label>
+            <input type="checkbox" name="projects" value="Trilha sonora"> <label> Trilha sonora </label>
+          <input type="checkbox" name="projects" value="Convidados"> <label> Convidados </label>
+            
+          <input type="checkbox" name="projects" value="Nada"> <label> Nada a comentar </label>
+          </div>
+      </div>
+                     
+            
+       <div id="form-group">
+         <p> Comentários ou sugestões?</p>
+         <textarea placeholder="Crítica Construtiva Constrói"></textarea>
+  </div>
+          
+      
+
+     <div>
+       <button type="submit" id="submit">
+         Enviar
+       </button>
+  </div>
+  
+ </div> 
+</form>
+
