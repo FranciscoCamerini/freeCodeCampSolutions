@@ -1,2 +1,2 @@
 # freeCodeCampSolutions
-Solutions from my freeCodeCamp tutorials
+Solutions from my freeCodeCamp lessons.
