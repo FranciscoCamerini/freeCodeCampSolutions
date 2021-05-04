@@ -1,2 +1,2 @@
 # freeCodeCampSolutions
-Solutions from my freeCodeCamp lessons.
+Responsive WEB design project from freeCodecCamp.
